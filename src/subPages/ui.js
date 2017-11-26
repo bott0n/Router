@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter ,Route,IndexRoute} from 'react-router-dom';
+import {BrowserRouter ,Route,IndexRoute,HashRouter as Router} from 'react-router-dom';
 
 import Home from './Home/index'
 import About from './About/index'
@@ -12,7 +12,7 @@ export default ()=>
 (
 <div>
     <Header />
-<BrowserRouter >
+<Router >
 <div>
     <Route exact path="/" component={Home}/>
     <Route path='/home' component={Home} />
@@ -20,7 +20,7 @@ export default ()=>
     <Route path='/video' component={Video}/>
  
 </div>
- </BrowserRouter >
+ </Router >
  </div>
  
 );

@@ -20137,7 +20137,7 @@ exports.default = function () {
         null,
         _react2.default.createElement(_Header2.default, null),
         _react2.default.createElement(
-            _reactRouterDom.BrowserRouter,
+            _reactRouterDom.HashRouter,
             null,
             _react2.default.createElement(
                 'div',
