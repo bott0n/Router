@@ -1,0 +1,38 @@
+*, *:before, *:after {
+    margin-top: 0px;
+    margin-left: 0px; }
+  
+  body .bg {
+ 
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 1080px; }
+  body .welcome-panel {
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    top: 500px;
+    left: 25%;
+    color: white;
+    font-size: 50px; }
+  body .middle {
+    width: 1920px;
+    height: 1000px;
+    background: #C8E09C; }
+    body .middle .detail-panel {
+      margin-top: 250px;
+      position: absolute;
+      width: 1920px;
+      height: 500px;
+      background: #5F3A3A; }
+      body .middle .detail-panel img {
+        margin-left: 200px; }
+      body .middle .detail-panel p {
+        margin-right: 500px;
+        margin-top: 200px;
+        height: 500px;
+        color: white;
+        float: right;
+        font-size: 300%; }
+  
+  /*# sourceMappingURL=layout.css.map */
