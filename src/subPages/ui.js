@@ -5,8 +5,13 @@ import Home from './Home/index'
 import About from './About/index'
 import Video from './Video/index'
 
+
+import Header from './Components/Header'
+
 export default ()=>
 (
+<div>
+    <Header />
 <BrowserRouter >
 <div>
     <Route exact path="/" component={Home}/>
@@ -16,5 +21,6 @@ export default ()=>
  
 </div>
  </BrowserRouter >
+ </div>
  
 );

@@ -16,9 +16,7 @@ module.exports = {
     filename: 'bundle.js',
    
   },
-  /*alias: {
-    applicationStyles: path.resolve('src/subPages/Home/main.css')
-  },*/
+  
 
   module: {
   
