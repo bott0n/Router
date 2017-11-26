@@ -24221,17 +24221,17 @@ var Header = function (_React$Component) {
                 { className: 'header' },
                 _react2.default.createElement(
                     'a',
-                    { href: 'home' },
+                    { href: '#/home' },
                     'Home'
                 ),
                 _react2.default.createElement(
                     'a',
-                    { href: 'about' },
+                    { href: '#/about' },
                     'About'
                 ),
                 _react2.default.createElement(
                     'a',
-                    { href: 'video' },
+                    { href: '#/video' },
                     'Video'
                 )
             );
