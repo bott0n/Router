@@ -1,17 +1,35 @@
 
+.header .list-btn{
+ margin-right:150px;
 
-.header a{
- margin-right:200px;
- padding:20px 50px;
+ 
  background-color: #F4B264;
  box-shadow: 2px 2px 10px  black ;
-}
-.header a:hover{
- background-color: #FF8F0A;
+
+
+padding:20px 50px;
+
  
 }
 
-.header {
-    margin:20px 500px;
+.header a{
+    text-decoration: none;
     
+}
+.header .list-btn:hover{
+ background-color: #FF8F0A;
+}
+
+
+.header {
+   
+    background-color: #F9D2A3;
+    padding:20px 50px;
+    width:100%;
+    
+    
+}
+
+.header ul{
+    margin:0 450px;
 }
